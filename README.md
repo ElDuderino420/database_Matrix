@@ -58,7 +58,7 @@ copy t_edges(source_node_id,target_node_id) from '/edges.csv' DELIMITER ',' CSV 
 After this is done you should have 2 containers with databases with data in them
 Now run the main.java file and it should start printing lots of numbers.
 
-### Results
+### Results in ms
 
 | depth   | mean SQL | Median SQL | Mean Neo4j | Median Neo4j |
 |---------|----------|------------|------------|--------------|
