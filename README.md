@@ -58,7 +58,7 @@ copy t_edges(source_node_id,target_node_id) from '/edges.csv' DELIMITER ',' CSV 
 After this is done you should have 2 containers with databases with data in them
 Now run the main.java file and it should start printing lots of numbers.
 
-Calculated times:
+### Results
 
 | depth   | mean SQL | Median SQL | Mean Neo4j | Median Neo4j |
 |---------|----------|------------|------------|--------------|
@@ -67,11 +67,10 @@ Calculated times:
 | depth 3 | 4039     | 3706       | 2294        | 635          |
 
 Depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes so those results will not be shown
-The pictures below show times to get each user from either database in order.
 
-![data_1](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d1.png "depth 1 data")
-![data_2](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d2.png "depth 2 data")
-![data_3](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d3.png "depth 3 data")
+| Depth 1 | Depth 2 | Depth 3 | Depth 4+5 |
+|---------|----------|------------|------------|
+| ![data_1](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d1.png "depth 1 data") | ![data_2](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d2.png "depth 2 data") | ![data_3](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d3.png "depth 3 data") | to be continued |
 
 ### Conclusion and discussion
 With a small resultset (around depth 3 and down) neo4j is marginally faster, while after this it falls dratiscally in efficiency
