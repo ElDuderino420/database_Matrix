@@ -72,6 +72,8 @@ depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes
 depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes so those results will not be shown
 the pictures below show times to get each user from either database in order.
 ![data_1](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d1.png "depth 1 data")
+
 ![data_2](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d2.png "depth 2 data")
+
 ![data_3](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d3.png "depth 3 data")
 
