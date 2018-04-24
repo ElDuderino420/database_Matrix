@@ -62,15 +62,13 @@ calculated times:
 
 | depth   | mean SQL | Median SQL | Mean Neo4j | Median Neo4j |
 |---------|----------|------------|------------|--------------|
-| depth 1 | 440      | 349        | 377        | 268          |
-| depth 2 | 1436     | 1075       | 308        | 242          |
-| depth 3 | 1892     | 1913       | 279        | 274          |
+| depth 1 | 1066      | 850        | 1334        | 455          |
+| depth 2 | 1912     | 1696       | 516        | 414          |
+| depth 3 | 4039     | 3706       | 2294        | 635          |
 
-depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes so those results will not be shown
+Depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes so those results will not be shown
+The pictures below show times to get each user from either database in order.
 
-
-depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes so those results will not be shown
-the pictures below show times to get each user from either database in order.
 ![data_1](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d1.png "depth 1 data")
 
 ![data_2](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d2.png "depth 2 data")
