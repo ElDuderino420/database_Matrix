@@ -70,8 +70,13 @@ Depth 4 and 5 takes way too long (several hours) to complete all 20 random nodes
 The pictures below show times to get each user from either database in order.
 
 ![data_1](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d1.png "depth 1 data")
-
 ![data_2](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d2.png "depth 2 data")
-
 ![data_3](https://github.com/Thug-Lyfe/database_Matrix/blob/master/pics/d3.png "depth 3 data")
 
+### Conclusion and discussion
+With a small resultset (around depth 3 and down) neo4j is marginally faster, while after this it falls dratiscally in efficiency
+While SQL increases more or less linear with the amount of data handled.
+I might have done something horribly wrong in my queries or code, but neo4j is generally much more inconsistent in the time spent on the queries. 
+From the pictures can it can be seen how neo4j's times swing much more than the SQL times. 
+
+As it is rare to go to this high depth. I would recomend a neo4j database as it is generally faster in the lower depths, plus the queries are much simpler to write compared to SQL. If features such as shortest path between nodes or something similar is needed then neo4j is highly recomended.
