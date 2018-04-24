@@ -16,7 +16,7 @@ public class neo4jConnection {
         StatementResult result;
         try {
             result = session.run(
-                    "MATCH (:Users {node_id:223395})" + base + "-[]->(a) RETURN a");
+                    "MATCH (:Users {node_id:"+id+"})" + base + "-[]->(a) RETURN distinct a");
             //System.out.println(base);
             int k = 0;
             /*while (result.hasNext()) {
