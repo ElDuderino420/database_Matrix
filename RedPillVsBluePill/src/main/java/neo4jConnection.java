@@ -19,11 +19,11 @@ public class neo4jConnection {
                     "MATCH (:Users {node_id:223395})" + base + "-[]->(a) RETURN a");
             //System.out.println(base);
             int k = 0;
-            while (result.hasNext()) {
+            /*while (result.hasNext()) {
                 k++;
                 Record record = result.next();
                 //System.out.println( record.get("a").get("name").toString()  );
-            }
+            }*/
         }finally {
             session.close();
             driver.close();
